@@ -1,3 +1,67 @@
+<!-- PSEUDO CODE -->
+<!-- 
+    Create a Create list input form
+    Create Natural Form List that will capture user Input (ie. I feel like Comedy and have ~90 mins)
+    The two captured values will be passed into API call that will return movies based on the search criteria
+    User can add a movie they like to a list they have created and so forth
+        Add button on every movie pulled from API
+    Delete button on every movie that has been added to a list
+    
+
+    1. Navigation Link to:        
+        - Search for a movie
+            Create Natural Form List that will capture user Input (ie. I feel like Comedy and have ~90 mins)
+            The two captured values will be passed into API call that will return movies based on the search criteria
+            Show related movies
+                User can add a movie they like to a list they have created and so forth
+                    Add button on every movie pulled from API
+        - Show User's Lists
+            - Delete List
+            - Add List
+        - Show User's Movies
+            -Delete Movie
+                Delete button on every movie that has been added to a list
+
+
+    2. API Call
+        - Based on user's input
+
+
+    3. Firebase
+        - Create a new Database
+            - Multiple users                                                              | Stretch Goal
+            - Add button will call set(ref) method to firebase
+            - Delete button will call remove(ref) method to firebase   
+
+
+    4. Flow
+        - Home page: 
+            * Nav
+                - Search for specific movie from our list
+            * Show Movies from a API call (favorite - default)
+                - Dropdown to show other pre-defined API searchs
+                - Search for movie names (imput) -                              | Stretch Goal
+                - Select a movie
+                    Show this existing user's list
+                    User can add a new list
+                        - Create list input form
+        - Show User's Lists
+            * List of lists with 2 buttons to delete and add list names
+            * User click the list name will show the movies inside the list
+
+        - Show User's Movies
+            * Has:
+                Poste
+                Movie details
+                Heart
+                Button to Add to list
+                Dropdown with lists available for the user
+
+
+
+-->
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
