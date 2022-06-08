@@ -58,6 +58,28 @@
                 Dropdown with lists available for the user
 
 
+/*
+  APP.JS
+      HEADER
+      
+      Natural Form {pass user data}
+        apiCall(user data) {API CALL => movies}
+          SHOW_MOVIES(movies)
+
+      Dropdown {pass user data}
+        apiCall(user data) {API CALL => movies}
+          SHOW_MOVIES(movies)
+
+      User Search Input {pass user data}
+        apiCall(user data) {API CALL => movies}
+          SHOW_MOVIES(movies)
+
+      FOOTER
+      
+      NATURAL LIST
+          MOVIE LIST
+          USER LIST
+*/
 
 -->
 
